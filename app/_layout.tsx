@@ -1,18 +1,11 @@
-import { Stack } from "expo-router";
+import {GestureHandlerRootView} from 'react-native-gesture-handler'
+import { Slot } from "expo-router";
+import React from "react";
 
 export default function RootLayout() {
   return (
-  <Stack>
-    <Stack.Screen
-      name='index'
-      options={{title: 'Inicio'}}/>
-    <Stack.Screen
-      name='peliculas/index'
-      options={{title: 'Listado de peliculas'}}/>
-    <Stack.Screen 
-      name='settings/index'
-      options={{title: 'Configuración'}}/>
-  </Stack>
-
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <Slot />
+    </GestureHandlerRootView>
   );
 }
