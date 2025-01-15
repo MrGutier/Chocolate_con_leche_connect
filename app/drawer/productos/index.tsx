@@ -1,6 +1,7 @@
 import { View, Text } from 'react-native'
 import React from 'react'
-import { GlobalStyles } from '@/theme/GlobalStyles'
+import { GlobalStyles } from '@/app/themes/GlobalStryles'
+
 
 const ScreenProductos = () => {
   return (

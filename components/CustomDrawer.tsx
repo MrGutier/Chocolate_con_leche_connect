@@ -1,7 +1,8 @@
 import { View, Text, Image } from 'react-native'
 import React from 'react'
 import { DrawerContentComponentProps, DrawerContentScrollView, DrawerItemList } from '@react-navigation/drawer'
-import { GlobalStyles } from '@/theme/GlobalStyles'
+import { GlobalStyles } from '@/app/themes/GlobalStryles'
+
 
 const CustomDrawer = ( props: DrawerContentComponentProps) => {
   return (
