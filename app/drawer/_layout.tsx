@@ -15,7 +15,12 @@ const LayoutDrawer = () => {
             drawerActiveTintColor: 'white',
             drawerItemStyle: {
                 borderRadius: 10
-            }
+            },
+            headerTintColor:"black",
+            headerTitle:"ligma",
+            headerBackgroundContainerStyle:{
+              backgroundColor:"black",
+            },
         }}>
     <Drawer.Screen
       name="index" 

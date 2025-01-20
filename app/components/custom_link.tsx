@@ -13,13 +13,13 @@ interface Props{
 
 }
 
-export default function Button_custom({nombre,Estilo_Caja,Estilo_Texto,onPress}:Props) {
+export default function Custom_link({nombre,Estilo_Caja,Estilo_Texto,onPress}:Props) {
 
 
   return(
     
-          <Pressable style={[GlobalStyles.button_box,Estilo_Caja]} onPress={onPress}>
-            <Text style={[GlobalStyles.button_text,Estilo_Texto]}>{nombre}</Text>
+          <Pressable style={[GlobalStyles.link_box,Estilo_Caja]}>
+            <Text style={[GlobalStyles.link_text,Estilo_Texto]} onPress={onPress}>{nombre}</Text>
           </Pressable>
 
   )

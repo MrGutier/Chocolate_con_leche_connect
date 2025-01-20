@@ -17,7 +17,7 @@ export const TipoLetra={
   }as const
 export const TamanoLetra={
     h1: 44,
-    h2: 30,
+    h2: 23,
     normal_text: 18,
     
   }as const

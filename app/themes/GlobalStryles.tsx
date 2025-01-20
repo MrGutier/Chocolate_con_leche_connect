@@ -77,7 +77,6 @@ drawerUserImg: {
     flexDirection: 'row',
     justifyContent: "center",
     marginBottom:16,
-    paddingHorizontal:10,
 
   },
   logo:{
@@ -96,10 +95,15 @@ drawerUserImg: {
     width:92.5,
     zIndex:10,
   },
-  imagen_pequena:{
+  imagen_pequena_opaca:{
     height:37,
     width:37,
     opacity:0.5
+
+  },
+  imagen_pequena:{
+    height:37,
+    width:37,
 
   },
   rotar_45:{
@@ -116,7 +120,7 @@ drawerUserImg: {
       paddingTop:40,
       alignItems:  'center',
       justifyContent: 'center',
-      paddingBottom:40,
+      paddingBottom:15,
       width:"100%"
   },
   margen_arriba_mediano:{
@@ -150,10 +154,10 @@ drawerUserImg: {
   button_box:{
     backgroundColor:Colores.orange,
     borderRadius:100,
-    paddingTop:5,
-    paddingBottom:5,
+    paddingTop:12,
+    paddingBottom:12,
 
-    maxWidth:'40%',
+    width:'45%',
     marginTop:10,
     marginBottom:10,
     flex:1,
@@ -166,8 +170,50 @@ drawerUserImg: {
     color:Colores.white,
     fontSize:TamanoLetra.normal_text,
   },
+  width_80:{
+    width:'80%',
+  },
+  margin_right_10:{
+    marginRight:'10%',
+  },
+  margin_left_10:{
+    marginLeft:'10%',
+  },
+  link_text:{
+    color:Colores.darkblue,
+    fontSize:TamanoLetra.normal_text,
+    textDecorationLine:"underline",
+  },
+  link_box:{
+    paddingTop:12,
+    paddingBottom:12,
+    width:'45%',
+    marginTop:10,
+    marginBottom:10,
+    flex:1,
+    alignItems:"center",
+    alignContent:"center",
+    textAlign:"center",
 
-
+  },
+  link_alt_text:{
+    color:Colores.white,
+  },
+  text_dark_blue:{
+    color:Colores.darkblue
+  },
+  text_white:{
+    color: Colores.white,
+  },
+  background_dark_blue:{
+    backgroundColor:Colores.darkblue,
+  },
+  background_white:{
+    backgroundColor:Colores.white,
+  },
+  remove_underline:{
+    textDecorationLine:"none",
+  }
   });
 
   export default GlobalStyles;
