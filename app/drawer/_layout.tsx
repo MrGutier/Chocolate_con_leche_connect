@@ -3,6 +3,7 @@ import { Ionicons} from '@expo/vector-icons'
 import React from 'react';
 import {Text} from 'react-native';
 import CustomDrawer from '@/components/CustomDrawer';
+import { Colores, TamanoLetra } from '../themes/Colores';
 
 const LayoutDrawer = () => {
   return (
@@ -17,10 +18,15 @@ const LayoutDrawer = () => {
                 borderRadius: 10
             },
             headerTintColor:"black",
-            headerTitle:"ligma",
-            headerBackgroundContainerStyle:{
-              backgroundColor:"black",
+            headerTitleStyle:{
+              fontFamily:'WendyOneRegular',
+              fontSize:TamanoLetra.h1,
+              color:Colores.white,
             },
+            headerTitle:"Petconnect",
+            headerStyle:{
+              backgroundColor:Colores.darkblue,
+            }
         }}>
     <Drawer.Screen
       name="index" 
