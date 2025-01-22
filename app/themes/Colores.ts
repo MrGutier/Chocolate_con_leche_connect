@@ -7,8 +7,9 @@ export const Colores = {
     darkblue:"#194A6E",
     turquoise:"#B9FFCC",
     fondo: '#E8FCD8',
-    lightBlue:"#E1F2FE",
+    lightBlue:"#C3DAE7",
     orange:"#F9BF90",
+    darkOrange:"#FE8C2A",
 } as const
 
 export const TipoLetra={
@@ -18,7 +19,9 @@ export const TipoLetra={
 export const TamanoLetra={
     h1: 44,
     h2: 23,
+    h3:20,
     normal_text: 18,
+    small_text:16,
     
   }as const
 

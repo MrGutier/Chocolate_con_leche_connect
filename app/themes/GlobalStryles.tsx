@@ -55,9 +55,13 @@ drawerUserImg: {
     fontFamily:"Poppins_bold",
     fontSize:TamanoLetra.h2,
   },
-  normal_text:{
+  h3:{
     fontFamily:"Poppins_bold",
-    fontSize:TamanoLetra.normal_text,
+    fontSize:TamanoLetra.h3,
+  },
+  normal_text:{
+    fontFamily:"Poppins",
+    fontSize:TamanoLetra.small_text,
   },
   texto_oscuro:{
     color:Colores.darkblue,
@@ -79,9 +83,19 @@ drawerUserImg: {
     marginBottom:16,
 
   },
+  row_no_margin: {
+    flexDirection: 'row',
+    justifyContent: "center",
+
+  },
   logo:{
     height: 92.5,
     width:92.5,
+  },
+  logo_menu:{
+    height: 42.5,
+    width:42.5,
+    marginRight:10,
   },
   imagen_gato:{
     height: 132.5,
@@ -129,6 +143,9 @@ drawerUserImg: {
   margen_arriba_pequeno:{
       marginTop:20,
   },
+  margen_abajo_pequeno:{
+    marginBottom:20,
+},
   margen_arriba_pequeno_mediano:{
     marginTop:30,
   },
@@ -213,7 +230,110 @@ drawerUserImg: {
   },
   remove_underline:{
     textDecorationLine:"none",
-  }
+  },
+  section_circle:{
+    borderRadius:100,
+    width:80,
+    height:80,
+
+    justifyContent:"center",
+    alignItems:"center",
+    backgroundColor:Colores.darkOrange,
+  },
+  section_box:{
+    backgroundColor:Colores.orange,
+    borderRadius:100,
+    paddingTop:20,
+    paddingBottom:20,
+    paddingRight:20,
+    paddingLeft:20,
+    width:'90%',
+    marginRight:"5%",
+    marginLeft:"5%",
+    marginTop:10,
+    marginBottom:10,
+
+  },
+  section_text:{
+    marginLeft:10,
+    width:"70%",
+  },
+  section_logo:{
+    width:50,
+    height:50,
+    alignSelf:"center",
+
+  },
+  section_row:{
+    flexDirection: 'row',
+  },
+  text_dark_orange:{
+    color:Colores.darkOrange,
+  },
+  margin_left_small:{
+    marginLeft:"5%",
+  },
+  margin_right_small:{
+    marginRight:"5%",
+  },
+  background_light:{
+    backgroundColor:Colores.orange
+  },
+  align_left:{
+    justifyContent:"flex-start",
+  },
+  ball:{
+    borderRadius:100,
+  },
+  map_box:{
+    borderRadius:10,
+    borderColor:Colores.darkblue,
+    borderWidth:2,
+  },
+  map_image:{
+    width:"100%",
+    borderTopLeftRadius:10,
+    borderTopRightRadius:10,
+    height:400,
+  },
+  padding_small_top:{
+    paddingTop:10,
+  },
+  padding_small_bottom:{
+    paddingBottom:10,
+  },
+  padding_small_right:{
+    paddingRight:10,
+  },
+  padding_small_left:{
+    paddingLeft:10,
+  },
+  box_size_big:{
+    width:"90%",
+  },
+  info_box:{
+    backgroundColor:Colores.lightBlue,
+    borderRadius:20,
+    paddingTop:10,
+    paddingBottom:10,
+    paddingRight:10,
+    paddingLeft:20,
+    alignContent:"center",
+    alignItems:"center",
+    width:'90%',
+    marginRight:"5%",
+    marginLeft:"5%",
+    marginTop:10,
+    marginBottom:10,
+
+  },
+  info_text:{
+    fontFamily:"Poppins",
+    width:"70%",
+    color:Colores.darkblue,
+    marginLeft:"5%",
+    marginRight:"5%",
+  },
   });
 
   export default GlobalStyles;
