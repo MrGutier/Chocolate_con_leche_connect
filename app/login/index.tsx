@@ -47,7 +47,7 @@ export default function Index() {
               </Custom_link>
           </View>
         </View>
-        <Custom_link nombre="¿Olvidaste la contraseña?" Estilo_Texto={GlobalStyles.link_alt_text} Estilo_Caja={[GlobalStyles.width_80,GlobalStyles.margen_arriba_pequeno]} onPress={()=>{router.push('/drawer')}}>
+        <Custom_link nombre="¿Olvidaste la contraseña?" Estilo_Texto={[GlobalStyles.link_alt_text,GlobalStyles.margin_bottom_big]} Estilo_Caja={[GlobalStyles.width_80,GlobalStyles.margen_arriba_pequeno]} onPress={()=>{router.push('/drawer')}}>
 
         </Custom_link>
         

@@ -39,7 +39,7 @@ export default function Index() {
               </Button_custom>
           </View>
         </View>
-        <Custom_link nombre="< Acceder" Estilo_Texto={GlobalStyles.remove_underline} Estilo_Caja={[GlobalStyles.width_80,GlobalStyles.margen_arriba_pequeno]} onPress={()=>{router.push('/login')}}>
+        <Custom_link nombre="< Acceder" Estilo_Texto={GlobalStyles.remove_underline} Estilo_Caja={[GlobalStyles.width_80,GlobalStyles.margen_arriba_pequeno,GlobalStyles.margin_bottom_big]} onPress={()=>{router.push('/login')}}>
 
         </Custom_link>
         
