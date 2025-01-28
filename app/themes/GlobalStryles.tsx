@@ -5,10 +5,9 @@ import { Colores, TamanoBoton, TamanoLetra, TipoLetra } from './Colores';
 export const GlobalStyles = StyleSheet.create({
 
   pantallaPrincipal: {
-      flex:1,
+      height: "auto",
       alignItems: "center",
       backgroundColor:Colores.darkblue,
-      width:'100%',
   },
   containerCentrado: {
     flex: 1,

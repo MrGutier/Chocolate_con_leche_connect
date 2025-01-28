@@ -16,7 +16,7 @@ const LayoutDrawer = () => {
             overlayColor: Colores.darkblue,
             drawerInactiveTintColor: Colores.darkblue,
             drawerActiveBackgroundColor: Colores.darkblue,
-            drawerActiveTintColor: 'white',
+            drawerActiveTintColor: Colores.white,
             drawerItemStyle: {
                 borderRadius: 10
             },
@@ -39,7 +39,7 @@ const LayoutDrawer = () => {
       options={{
         drawerLabel: 'Inicio',
         title: 'Pantalla inicio',
-        drawerIcon: ({size, color}) => <Ionicons name="home" size={size} color={'black'}/>
+        drawerIcon: ({size, color}) => <Ionicons name="home" size={size} color={color}/>
       }}
     />
     <Drawer.Screen
