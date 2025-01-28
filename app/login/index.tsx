@@ -5,12 +5,14 @@ import Input_form from "../components/input_form";
 import Button_custom from '../components/button_custom';
 import { navigate } from "expo-router/build/global-state/routing";
 import Custom_link from "../components/custom_link";
+import { ScrollView } from "react-native-gesture-handler";
 
 export default function Index() {
   return(
     <View
         style={GlobalStyles.pantallaPrincipal}
     >
+      <ScrollView style={GlobalStyles.pantallaPrincipal}>
         <Text style={[GlobalStyles.letra_titulo_arriba,GlobalStyles.margen_arriba_pequeno_mediano]}>Bienvenido a</Text>
         <Text style={GlobalStyles.letra_titulo}>PETCONNECT</Text>
         <Image style={[GlobalStyles.logo,GlobalStyles.margen_arriba_pequeno]} source={require('./../../assets/images/elementos_generales/logo_2.png')}>
@@ -49,8 +51,7 @@ export default function Index() {
         <Custom_link nombre="¿Olvidaste la contraseña?" Estilo_Texto={GlobalStyles.link_alt_text} Estilo_Caja={[GlobalStyles.width_80,GlobalStyles.margen_arriba_pequeno]} onPress={()=>{router.push('/drawer')}}>
 
         </Custom_link>
-        
-    
+        </ScrollView>
   </View>
   )
 }

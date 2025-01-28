@@ -8,6 +8,7 @@ export const GlobalStyles = StyleSheet.create({
       flex:1,
       alignItems: "center",
       backgroundColor:Colores.darkblue,
+      width:'100%',
   },
   containerCentrado: {
     flex: 1,
@@ -18,7 +19,7 @@ titulo: {
     fontSize: 22
 },
 drawerUserContainer: {
-    backgroundColor: 'indigo',
+    backgroundColor: Colores.darkOrange,
     justifyContent: 'center',
     alignItems: 'center',
     marginHorizontal: 0,
