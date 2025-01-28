@@ -58,6 +58,14 @@ const LayoutDrawer = () => {
         drawerIcon: ({size, color}) => <Ionicons name="construct" size={size} color={color}/>
       }}
     />
+    <Drawer.Screen
+      name="rescate/index" 
+      options={{
+        drawerLabel: 'Rescate',
+        title: 'Pantalla configuracion',
+        drawerIcon: ({size, color}) => <Ionicons name="construct" size={size} color={color}/>
+      }}
+    />
   </Drawer>
   )
 }
