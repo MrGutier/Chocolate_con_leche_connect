@@ -5,9 +5,10 @@ import { Colores, TamanoBoton, TamanoLetra, TipoLetra } from './Colores';
 export const GlobalStyles = StyleSheet.create({
 
   pantallaPrincipal: {
-      height: "auto",
+
       alignItems: "center",
       backgroundColor:Colores.darkblue,
+
   },
   containerCentrado: {
     flex: 1,
@@ -334,6 +335,9 @@ drawerUserImg: {
     marginLeft:"5%",
     marginRight:"5%",
   },
+  margin_bottom_big:{
+    marginBottom:80,
+  }
   });
 
   export default GlobalStyles;
