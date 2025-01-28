@@ -5,11 +5,12 @@ import Input_form from "../components/input_form";
 import Button_custom from '../components/button_custom';
 import { navigate } from "expo-router/build/global-state/routing";
 import Custom_link from "../components/custom_link";
+import { ScrollView } from 'react-native-gesture-handler';
 
 export default function Index() {
   return(
-    <View
-        style={GlobalStyles.pantallaPrincipal}
+    <ScrollView
+      contentContainerStyle={GlobalStyles.pantallaPrincipal}
     >
         <Text style={[GlobalStyles.letra_titulo_arriba,GlobalStyles.margen_arriba_pequeno_mediano]}>Bienvenido a</Text>
         <Text style={GlobalStyles.letra_titulo}>PETCONNECT</Text>
@@ -51,6 +52,6 @@ export default function Index() {
         </Custom_link>
         
     
-  </View>
+  </ScrollView>
   )
 }
