@@ -18,16 +18,17 @@ export const GlobalStyles = StyleSheet.create({
 titulo: {
     fontSize: 22
 },
+
 drawerUserContainer: {
-    backgroundColor: Colores.darkOrange,
+    backgroundColor: Colores.white,
     justifyContent: 'center',
     alignItems: 'center',
     marginHorizontal: 0,
     marginBottom: 30,
-    height: 140,
-    borderRadius: 10,
-
+    height: 100,
+    borderRadius: 25,
 },
+
 drawerUserImg: {
     width: 100, 
     height: 100, 

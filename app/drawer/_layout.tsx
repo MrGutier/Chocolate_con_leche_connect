@@ -13,12 +13,15 @@ const LayoutDrawer = () => {
     <Drawer 
         drawerContent={CustomDrawer}
         screenOptions={{
-            overlayColor: Colores.darkblue,
+            overlayColor: "#194A6E55",
             drawerInactiveTintColor: Colores.darkblue,
             drawerActiveBackgroundColor: Colores.darkblue,
             drawerActiveTintColor: Colores.white,
             drawerItemStyle: {
                 borderRadius: 10
+            },
+            drawerStyle:{
+                backgroundColor: Colores.white,
             },
             headerTintColor:Colores.white,
             headerTitleStyle:{
