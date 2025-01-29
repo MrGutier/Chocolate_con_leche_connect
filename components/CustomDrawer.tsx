@@ -12,8 +12,8 @@ const CustomDrawer = ( props: DrawerContentComponentProps) => {
         <Image style={GlobalStyles.drawerUserImg}
                 source={require('../assets/user.jpg')}
         />
-        <Text>pepe</Text>
-        <Text>@pepito</Text>
+        <Text style={GlobalStyles.h3}>Lamine Yamal</Text>
+        <Text>@tinkiwinki</Text>
 
       </View>
 

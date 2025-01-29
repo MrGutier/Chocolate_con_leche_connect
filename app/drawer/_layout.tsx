@@ -64,15 +64,15 @@ const LayoutDrawer = () => {
     <Drawer.Screen
       name="rescate/index" 
       options={{
-        drawerLabel: 'Rescate',
+        drawerLabel: 'Patitas al rescate',
         title: 'Pantalla configuracion',
-        drawerIcon: ({size, color}) => <Ionicons name="construct" size={size} color={color}/>
+        drawerIcon: ({size, color}) => <Ionicons name="paw" size={size} color={color}/>
       }}
     />
     <Drawer.Screen
-      name="refugio/index" 
+      name="./login/index" 
       options={{
-        drawerLabel: 'Refugio',
+        drawerLabel: 'Cerrar sesión',
         title: 'Pantalla configuracion',
         drawerIcon: ({size, color}) => <Ionicons name="construct" size={size} color={color}/>
       }}

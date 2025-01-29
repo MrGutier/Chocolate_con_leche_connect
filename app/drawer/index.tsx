@@ -29,7 +29,7 @@ const ScreenPrincipal = () => {
       <Text style={[GlobalStyles.h2,GlobalStyles.text_dark_orange,GlobalStyles.margen_arriba_pequeno,GlobalStyles.margin_left_small]}>Secciones</Text>
       <Section onPress={()=>{router.push('./drawer/rescate')}} image={patitas_rescate} nombre='Patitas al rescate'descripcion='Encuentra a quienes necesitan ayuda con los que están dispuestos a darla.'></Section>
       <Section onPress={()=>{router.push('./drawer/refugio')}} image={adopt_me} nombre='Refugio de patitas'descripcion='¡Adopta! Echa un vistazo a los animales en adopción.'></Section>
-      <Section onPress={()=>{router.push('./register')}} image={comunidad_animal} nombre='Comunidad Animal'descripcion='Encuentra a quienes necesitan ayuda con los que están dispuestos a darla.'></Section>
+      <Section onPress={()=>{router.push('./drawer/comunidad_animal')}} image={comunidad_animal} nombre='Comunidad Animal'descripcion='Encuentra a quienes necesitan ayuda con los que están dispuestos a darla.'></Section>
       <Section image={image} nombre='Patas en marcha'descripcion='Encuentra a quienes necesitan ayuda con los que están dispuestos a darla.'></Section>
       <Section image={lupa} nombre='Sobre Petconnect'descripcion='Encuentra a quienes necesitan ayuda con los que están dispuestos a darla.'></Section>
       <View style={[GlobalStyles.miscelaneo,GlobalStyles.margen_arriba_pequeno]}>

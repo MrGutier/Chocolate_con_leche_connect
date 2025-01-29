@@ -25,7 +25,7 @@ drawerUserContainer: {
     alignItems: 'center',
     marginHorizontal: 0,
     marginBottom: 30,
-    height: 100,
+    height: 160,
     borderRadius: 25,
 },
 
@@ -316,8 +316,8 @@ drawerUserImg: {
   info_box:{
     backgroundColor:Colores.lightBlue,
     borderRadius:20,
-    paddingTop:10,
-    paddingBottom:10,
+    paddingTop:15,
+    paddingBottom:15,
     paddingRight:10,
     paddingLeft:20,
     alignContent:"center",
@@ -337,7 +337,6 @@ drawerUserImg: {
     marginRight:"5%",
   },
   grid: {
-    
     flexDirection: "row",
     flexWrap: "wrap",
     justifyContent: "space-around",
@@ -381,6 +380,31 @@ drawerUserImg: {
   margin_bottom_big:{
     marginBottom:80,
   },
+  discussion_box:{
+
+    borderWidth:1,
+    borderColor:Colores.lightBlue,
+    borderRadius:20,
+    paddingTop:15,
+    paddingBottom:15,
+    paddingRight:10,
+    paddingLeft:20,
+    alignContent:"center",
+    alignItems:"center",
+    width:'90%',
+    marginRight:"5%",
+    marginLeft:"5%",
+    marginTop:10,
+    marginBottom:10,
+
+  },
+  text_size_medium:{
+    fontSize:TamanoLetra.h3,
+  },
+  margin_bottom_extra_small:{
+    marginBottom:10
+  },
+  
   image_card_details: {
     width: "100%",
     height: 280,
@@ -404,4 +428,5 @@ drawerUserImg: {
   }
   });
 
+  
   export default GlobalStyles;
