@@ -9,13 +9,14 @@ import { Colores } from "../themes/Colores";
 interface Props{
 
     descripcion:string,
+    numComentarios:number,
     Estilo_Caja?:StyleProp<ViewStyle>,
     Estilo_Texto?:StyleProp<TextStyle>,
     onPress?: () => void;
 
 }
 
-export default function DiscussionBlock({Estilo_Caja,descripcion,Estilo_Texto,onPress}:Props) {
+export default function DiscussionBlock({Estilo_Caja,descripcion,Estilo_Texto,numComentarios,onPress}:Props) {
 
 
   return(
@@ -24,7 +25,15 @@ export default function DiscussionBlock({Estilo_Caja,descripcion,Estilo_Texto,on
             <Text style={[GlobalStyles.info_text,Estilo_Texto]}>
                 {descripcion}
             </Text>
-            <Ionicons name="information-circle" size={60} color={Colores.white}></Ionicons>
+            
+            <View style={{position:"absolute",right:15,bottom:15,zIndex:9}}>
+                <Ionicons name="chatbubble" size={30} color={Colores.darkblue}></Ionicons>
+                <View style={{position:"absolute",right:9,bottom:7,alignContent:"center",alignItems:"center"}}>
+                    <Text style={{color:Colores.white,}}>{numComentarios}</Text>
+                </View>
+                
+            </View>
+            
           </Pressable>
 
   )

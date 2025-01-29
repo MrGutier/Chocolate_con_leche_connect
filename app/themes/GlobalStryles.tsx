@@ -394,6 +394,12 @@ drawerUserImg: {
     marginBottom:10,
 
   },
+  text_size_medium:{
+    fontSize:TamanoLetra.h3,
+  },
+  margin_bottom_extra_small:{
+    marginBottom:10
+  },
   });
 
   export default GlobalStyles;
