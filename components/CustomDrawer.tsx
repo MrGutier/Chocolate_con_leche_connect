@@ -8,9 +8,13 @@ const CustomDrawer = ( props: DrawerContentComponentProps) => {
   return (
     <DrawerContentScrollView {...props}>
       <View style={GlobalStyles.drawerUserContainer}>
+        
         <Image style={GlobalStyles.drawerUserImg}
                 source={require('../assets/user.jpg')}
         />
+        <Text>pepe</Text>
+        <Text>@pepito</Text>
+
       </View>
 
       <DrawerItemList {...props}/>

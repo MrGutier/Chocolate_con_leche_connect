@@ -5,9 +5,10 @@ import { Colores, TamanoBoton, TamanoLetra, TipoLetra } from './Colores';
 export const GlobalStyles = StyleSheet.create({
 
   pantallaPrincipal: {
-      flex:1,
+
       alignItems: "center",
       backgroundColor:Colores.darkblue,
+
   },
   containerCentrado: {
     flex: 1,
@@ -17,16 +18,17 @@ export const GlobalStyles = StyleSheet.create({
 titulo: {
     fontSize: 22
 },
+
 drawerUserContainer: {
-    backgroundColor: 'indigo',
+    backgroundColor: Colores.white,
     justifyContent: 'center',
     alignItems: 'center',
     marginHorizontal: 0,
     marginBottom: 30,
-    height: 140,
-    borderRadius: 10,
-
+    height: 100,
+    borderRadius: 25,
 },
+
 drawerUserImg: {
     width: 100, 
     height: 100, 
@@ -63,10 +65,7 @@ drawerUserImg: {
     fontFamily:"Poppins",
     fontSize:TamanoLetra.small_text,
   },
-  bold_text:{
-    fontFamily:"Poppins_bold",
-    fontSize:TamanoLetra.small_text,
-  },
+
   texto_oscuro:{
     color:Colores.darkblue,
   },
@@ -370,7 +369,13 @@ drawerUserImg: {
     fontSize:13,
     backgroundColor:Colores.lightBlue,
   },
-  
+  bold_text:{
+    fontFamily:"Poppins_bold",
+    fontSize:TamanoLetra.small_text,
+  },
+  margin_bottom_big:{
+    marginBottom:80,
+  }
   });
 
   export default GlobalStyles;

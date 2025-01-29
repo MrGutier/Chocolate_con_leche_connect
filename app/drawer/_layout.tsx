@@ -13,12 +13,15 @@ const LayoutDrawer = () => {
     <Drawer 
         drawerContent={CustomDrawer}
         screenOptions={{
-            overlayColor: 'rgba(0,0,0,0.4)',
-            drawerInactiveTintColor: 'black',
-            drawerActiveBackgroundColor: 'indigo',
-            drawerActiveTintColor: 'white',
+            overlayColor: "#194A6E55",
+            drawerInactiveTintColor: Colores.darkblue,
+            drawerActiveBackgroundColor: Colores.darkblue,
+            drawerActiveTintColor: Colores.white,
             drawerItemStyle: {
                 borderRadius: 10
+            },
+            drawerStyle:{
+                backgroundColor: Colores.white,
             },
             headerTintColor:Colores.white,
             headerTitleStyle:{
@@ -54,6 +57,22 @@ const LayoutDrawer = () => {
       name="configuracion/index" 
       options={{
         drawerLabel: 'Configuración',
+        title: 'Pantalla configuracion',
+        drawerIcon: ({size, color}) => <Ionicons name="construct" size={size} color={color}/>
+      }}
+    />
+    <Drawer.Screen
+      name="rescate/index" 
+      options={{
+        drawerLabel: 'Rescate',
+        title: 'Pantalla configuracion',
+        drawerIcon: ({size, color}) => <Ionicons name="construct" size={size} color={color}/>
+      }}
+    />
+    <Drawer.Screen
+      name="refugio/index" 
+      options={{
+        drawerLabel: 'Refugio',
         title: 'Pantalla configuracion',
         drawerIcon: ({size, color}) => <Ionicons name="construct" size={size} color={color}/>
       }}
