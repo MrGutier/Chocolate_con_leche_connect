@@ -25,7 +25,7 @@ drawerUserContainer: {
     alignItems: 'center',
     marginHorizontal: 0,
     marginBottom: 30,
-    height: 100,
+    height: 160,
     borderRadius: 25,
 },
 
@@ -337,7 +337,6 @@ drawerUserImg: {
     marginRight:"5%",
   },
   grid: {
-    
     flexDirection: "row",
     flexWrap: "wrap",
     justifyContent: "space-around",
@@ -378,4 +377,5 @@ drawerUserImg: {
   }
   });
 
+  
   export default GlobalStyles;

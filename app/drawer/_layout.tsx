@@ -58,7 +58,7 @@ const LayoutDrawer = () => {
       options={{
         drawerLabel: 'Configuración',
         title: 'Pantalla configuracion',
-        drawerIcon: ({size, color}) => <Ionicons name="construct" size={size} color={color}/>
+        drawerIcon: ({size, color}) => <Ionicons name="settings" size={size} color={color}/>
       }}
     />
     <Drawer.Screen
