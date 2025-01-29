@@ -63,6 +63,10 @@ drawerUserImg: {
     fontFamily:"Poppins",
     fontSize:TamanoLetra.small_text,
   },
+  bold_text:{
+    fontFamily:"Poppins_bold",
+    fontSize:TamanoLetra.small_text,
+  },
   texto_oscuro:{
     color:Colores.darkblue,
   },
@@ -80,7 +84,6 @@ drawerUserImg: {
   fila: {
     flexDirection: 'row',
     justifyContent: "center",
-    marginBottom:16,
 
   },
   row_no_margin: {
@@ -334,6 +337,40 @@ drawerUserImg: {
     marginLeft:"5%",
     marginRight:"5%",
   },
+  grid: {
+    
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "space-around",
+  },
+  card: {
+    width: '42%',
+    backgroundColor: Colores.lightBlue,
+    margin: 8,
+    borderRadius:12,
+  },
+  image_card: {
+    width: "100%",
+    height: 200,
+    borderRadius: 10,
+
+  },
+  nombre: {
+    fontFamily:"Poppins_bold",
+    fontSize:13,
+    backgroundColor:Colores.lightBlue,
+  },
+  pantallaDetalles: {
+    flex:1,
+    alignItems: "center",
+    backgroundColor:Colores.lightBlue,
+  },
+  description: {
+    fontFamily:"Poppins",
+    fontSize:13,
+    backgroundColor:Colores.lightBlue,
+  },
+  
   });
 
   export default GlobalStyles;
