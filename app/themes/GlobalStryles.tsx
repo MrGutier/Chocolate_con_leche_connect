@@ -316,8 +316,8 @@ drawerUserImg: {
   info_box:{
     backgroundColor:Colores.lightBlue,
     borderRadius:20,
-    paddingTop:10,
-    paddingBottom:10,
+    paddingTop:15,
+    paddingBottom:15,
     paddingRight:10,
     paddingLeft:20,
     alignContent:"center",
@@ -375,7 +375,25 @@ drawerUserImg: {
   },
   margin_bottom_big:{
     marginBottom:80,
-  }
+  },
+  discussion_box:{
+
+    borderWidth:1,
+    borderColor:Colores.lightBlue,
+    borderRadius:20,
+    paddingTop:15,
+    paddingBottom:15,
+    paddingRight:10,
+    paddingLeft:20,
+    alignContent:"center",
+    alignItems:"center",
+    width:'90%',
+    marginRight:"5%",
+    marginLeft:"5%",
+    marginTop:10,
+    marginBottom:10,
+
+  },
   });
 
   export default GlobalStyles;
