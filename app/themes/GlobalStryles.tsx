@@ -341,23 +341,27 @@ drawerUserImg: {
     flexDirection: "row",
     flexWrap: "wrap",
     justifyContent: "space-around",
+    width:'100%'
   },
   card: {
     width: '42%',
     backgroundColor: Colores.lightBlue,
     margin: 8,
-    borderRadius:12,
+    borderTopLeftRadius:12,
+    borderTopRightRadius:12
   },
   image_card: {
     width: "100%",
     height: 200,
-    borderRadius: 10,
+    borderTopLeftRadius: 10,
+    borderTopRightRadius: 10,
 
   },
   nombre: {
     fontFamily:"Poppins_bold",
     fontSize:13,
     backgroundColor:Colores.lightBlue,
+    color:Colores.darkblue
   },
   pantallaDetalles: {
     flex:1,
@@ -368,6 +372,7 @@ drawerUserImg: {
     fontFamily:"Poppins",
     fontSize:13,
     backgroundColor:Colores.lightBlue,
+    color:Colores.darkblue
   },
   bold_text:{
     fontFamily:"Poppins_bold",
@@ -375,6 +380,27 @@ drawerUserImg: {
   },
   margin_bottom_big:{
     marginBottom:80,
+  },
+  image_card_details: {
+    width: "100%",
+    height: 280,
+    borderRadius: 30,
+    marginBottom:10,
+  },
+  tarjeta_detalles:{
+
+    backgroundColor:Colores.white,
+    borderRadius:40,
+    alignItems:  'center',
+},
+  contenedor_detalles: {
+    flexDirection: 'row',
+    alignItems: 'center',
+
+    padding:15
+  },
+  text_light_blue: {
+    color:Colores.lightBlue
   }
   });
 

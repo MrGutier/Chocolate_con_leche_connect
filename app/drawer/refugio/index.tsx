@@ -75,9 +75,11 @@ const ScreenRefugio = () => {
                  }}>   
                  <Image source={item.foto} style={GlobalStyles.image_card}></Image>
               </Pressable>
-              <View style={GlobalStyles.grid}>
+              <View style={[GlobalStyles.grid,{padding:3}]}>
                 <Text style={GlobalStyles.nombre}>{item.nombre}</Text>
+                <Text style={GlobalStyles.text_dark_blue}>|</Text>
                 <Text style={GlobalStyles.description}>{item.sexo}</Text>
+                <Text style={GlobalStyles.text_dark_blue}>|</Text>
                 <Text style={GlobalStyles.description}>{item.anos} años</Text>
               </View>
             </View>
