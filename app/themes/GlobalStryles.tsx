@@ -65,7 +65,6 @@ drawerUserImg: {
     fontFamily:"Poppins",
     fontSize:TamanoLetra.small_text,
   },
-
   texto_oscuro:{
     color:Colores.darkblue,
   },
@@ -416,16 +415,64 @@ drawerUserImg: {
     backgroundColor:Colores.white,
     borderRadius:40,
     alignItems:  'center',
+    height:"auto",
+    width:"85%",
+    marginTop:30,
+    marginBottom:30
 },
   contenedor_detalles: {
     flexDirection: 'row',
     alignItems: 'center',
-
-    padding:15
+    padding:16
   },
   text_light_blue: {
     color:Colores.lightBlue
+  },
+  caja_descripcion: {
+    borderColor:Colores.lightBlue,
+    borderWidth:1,
+    width:"100%",
+    padding:13,
+    marginTop:20,
+    marginBottom:20
+  },
+  small_text: {
+    color: Colores.darkblue,
+    fontFamily:"Poppins",
+    fontSize:12,
+    textAlign:"justify"
+  },
+  fondo_naranja:{
+    backgroundColor:Colores.darkOrange,
+  },
+  section_circle_detalles:{
+    borderRadius:100,
+    width:30,
+    height:30,
+
+    justifyContent:"center",
+    alignItems:"center",
+    backgroundColor:Colores.darkblue,
+    marginLeft:15
+  },
+  section_logo_2:{
+    width:20,
+    height:20,
+    alignSelf:"center",
+  },
+  section_foto:{
+    width:42,
+    height:42,
+    alignSelf:"center",
+    marginBottom:10,
+    marginRight:10
+  },
+  mini_logo: {
+    width:12,
+    height:12,
+    alignSelf:"center",
   }
+
   });
 
   

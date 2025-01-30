@@ -70,6 +70,14 @@ const LayoutDrawer = () => {
       }}
     />
     <Drawer.Screen
+      name="refugio/index" 
+      options={{
+        drawerLabel: 'Refugio de patitas',
+        title: 'Pantalla refugio',
+        drawerIcon: ({size, color}) => <Ionicons name="sparkles" size={size} color={color}/>
+      }}
+    />
+    <Drawer.Screen
       name="./login/index" 
       options={{
         drawerLabel: 'Cerrar sesión',
@@ -77,6 +85,12 @@ const LayoutDrawer = () => {
         drawerIcon: ({size, color}) => <Ionicons name="construct" size={size} color={color}/>
       }}
     />
+    <Drawer.Screen name="refugio/detalles/[id]"
+        options={{
+            drawerItemStyle: { display: 'none' }
+        }}
+    />
+     
   </Drawer>
   )
 }
