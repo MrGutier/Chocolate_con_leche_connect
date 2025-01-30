@@ -78,6 +78,14 @@ const LayoutDrawer = () => {
       }}
     />
     <Drawer.Screen
+      name="comunidad_animal/index" 
+      options={{
+        drawerLabel: 'Comunidad animal',
+        title: 'Pantalla comunidad',
+        drawerIcon: ({size, color}) => <Ionicons name="book" size={size} color={color}/>
+      }}
+    />
+    <Drawer.Screen
       name="./login/index" 
       options={{
         drawerLabel: 'Cerrar sesión',
