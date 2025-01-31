@@ -6,6 +6,7 @@ import CustomDrawer from '@/components/CustomDrawer';
 import { Colores, TamanoLetra } from '../themes/Colores';
 import GlobalStyles from '../themes/GlobalStryles';
 import { useNavigation } from '@react-navigation/native';
+import Index from '@/app/login/index';
 
 const LayoutDrawer = () => {
   const navigation = useNavigation();
@@ -46,11 +47,19 @@ const LayoutDrawer = () => {
       }}
     />
     <Drawer.Screen
-      name="productos/index" 
+      name="mensajes/index" 
       options={{
-        drawerLabel: 'Productos',
-        title: 'Listado de peliculas',
-        drawerIcon: ({size, color}) => <Ionicons name="film" size={size} color={color}/>
+        drawerLabel: 'Mensajes',
+        title: 'Pantalla de favoritos',
+        drawerIcon: ({size, color}) => <Ionicons name="mail" size={size} color={color}/>
+      }}
+    />
+    <Drawer.Screen
+      name="favoritos/index" 
+      options={{
+        drawerLabel: 'Favoritos',
+        title: 'Pantalla de favoritos',
+        drawerIcon: ({size, color}) => <Ionicons name="heart-circle" size={size} color={color}/>
       }}
     />
     <Drawer.Screen
@@ -58,7 +67,7 @@ const LayoutDrawer = () => {
       options={{
         drawerLabel: 'Configuración',
         title: 'Pantalla configuracion',
-        drawerIcon: ({size, color}) => <Ionicons name="construct" size={size} color={color}/>
+        drawerIcon: ({size, color}) => <Ionicons name="settings" size={size} color={color}/>
       }}
     />
     <Drawer.Screen
@@ -79,18 +88,11 @@ const LayoutDrawer = () => {
     />
     <Drawer.Screen
       name="comunidad_animal/index" 
+      
       options={{
         drawerLabel: 'Comunidad animal',
         title: 'Pantalla comunidad',
         drawerIcon: ({size, color}) => <Ionicons name="book" size={size} color={color}/>
-      }}
-    />
-    <Drawer.Screen
-      name="./login/index" 
-      options={{
-        drawerLabel: 'Cerrar sesión',
-        title: 'Pantalla configuracion',
-        drawerIcon: ({size, color}) => <Ionicons name="construct" size={size} color={color}/>
       }}
     />
     <Drawer.Screen name="refugio/detalles/[id]"
@@ -98,7 +100,16 @@ const LayoutDrawer = () => {
             drawerItemStyle: { display: 'none' }
         }}
     />
-     
+     <Drawer.Screen name="productos/index"
+        options={{
+            drawerItemStyle: { display: 'none' }
+        }}
+    />
+     <Drawer.Screen name="productos copy/index"
+        options={{
+            drawerItemStyle: { display: 'none' }
+        }}
+    />
   </Drawer>
   )
 }

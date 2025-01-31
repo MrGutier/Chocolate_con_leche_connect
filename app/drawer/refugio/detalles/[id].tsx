@@ -5,6 +5,9 @@ import { perros } from '@/app/data/perros.data';
 import GlobalStyles from '@/app/themes/GlobalStryles';
 import Button_custom from '@/app/components/button_custom';
 import { ScrollView } from 'react-native-gesture-handler';
+import { Ionicons } from "@expo/vector-icons";
+import { Colores, TamanoLetra } from '@/app/themes/Colores';
+
 
 const ScreenPerro= () => {
 
@@ -73,10 +76,10 @@ const ScreenPerro= () => {
                             </View>
                             <View style={{width:"50%",flexDirection:"row-reverse"}}>
                                 <View style={[GlobalStyles.section_circle_detalles]}>
-                                    <Image style={[GlobalStyles.section_logo_2]} source={telefon}></Image>
+                                    <Ionicons name="call" size={20} color={Colores.white}></Ionicons>
                                 </View>
                                 <View style={[GlobalStyles.section_circle_detalles]}>
-                                    <Image style={[GlobalStyles.section_logo_2]} source={mail}></Image>
+                                    <Ionicons name="mail" size={20} color={Colores.white}></Ionicons>
                                 </View>
                             </View>
                         </View>

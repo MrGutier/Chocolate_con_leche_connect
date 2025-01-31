@@ -6,7 +6,7 @@ import { GlobalStyles } from '@/app/themes/GlobalStryles'
 const ScreenProductos = () => {
   return (
     <View style={GlobalStyles.containerCentrado}>
-      <Text style= {GlobalStyles.titulo}>Screen Productos</Text>
+      <Text style= {GlobalStyles.titulo}>Screen Favoritos</Text>
     </View>
   )
 }
